@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="auth-section">
+        <!-- Registration Form -->
+        <div id="register-section">
+            <h2>REGISTER</h2>
+            <input class="box" type="text" id="register-username" placeholder="Username">
+            <input class="box" type="password" id="register-password" placeholder="Password">
+            <button onclick="register()">Register</button>
+            <p id="register-status"></p>
+        </div>
+
+        <!-- Login Form -->
+        <div id="login-section">
+            <h2>LOG IN</h2>
+            <input class="box" type="text" id="login-username" placeholder="Username">
+            <input class="box" type="password" id="login-password" placeholder="Password">
+            <button onclick="login()">Login</button>
+            <p id="login-status"></p>
+        </div>
+    </div>
+
+    <!-- Secured Page -->
+    <div id="secured-page" style="display: none;">
+        <img src="./authentication.jpg" alt="Authentication image"  class="img">
+        <h1>Welcome to the Secured Page!</h1>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

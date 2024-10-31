@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#auth-section {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1{
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box {
+    width: 280px;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    background-color: blue ;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    /* margin-left: 100px; */
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.img{
+    height: 300px;
+    width: 400px;
+}
+
+#secured-page {
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
